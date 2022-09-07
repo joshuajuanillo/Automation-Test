@@ -1,0 +1,15 @@
+{
+  "name": "tescafe-lambdatest",
+  "version": "1.0.0",
+  "description": "TestAutomation",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe 'lambdatest:Chrome@74.0:Windows 8' web-automation/sample/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^2.0.0",
+    "testcafe-browser-provider-lambdatest": "^2.0.22"
+  }
+}
